@@ -14,6 +14,9 @@
 		6C5F3DE719EB3D2800E3898C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6C5F3DE619EB3D2800E3898C /* Images.xcassets */; };
 		6C5F3DEA19EB3D2900E3898C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6C5F3DE819EB3D2800E3898C /* LaunchScreen.xib */; };
 		6C5F3DF619EB3D2900E3898C /* LionsAndTigersTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C5F3DF519EB3D2900E3898C /* LionsAndTigersTests.m */; };
+		6C5F3E0119EB3F0C00E3898C /* TopViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C5F3E0019EB3F0C00E3898C /* TopViewController.m */; };
+		6C5F3E0419EB4F5600E3898C /* HUDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C5F3E0319EB4F5600E3898C /* HUDViewController.m */; };
+		6C5F3E0719EB6B1300E3898C /* CustomCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C5F3E0619EB6B1300E3898C /* CustomCollectionViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +43,12 @@
 		6C5F3DEF19EB3D2900E3898C /* LionsAndTigersTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LionsAndTigersTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6C5F3DF419EB3D2900E3898C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6C5F3DF519EB3D2900E3898C /* LionsAndTigersTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LionsAndTigersTests.m; sourceTree = "<group>"; };
+		6C5F3DFF19EB3F0C00E3898C /* TopViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TopViewController.h; sourceTree = "<group>"; };
+		6C5F3E0019EB3F0C00E3898C /* TopViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TopViewController.m; sourceTree = "<group>"; };
+		6C5F3E0219EB4F5600E3898C /* HUDViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HUDViewController.h; sourceTree = "<group>"; };
+		6C5F3E0319EB4F5600E3898C /* HUDViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HUDViewController.m; sourceTree = "<group>"; };
+		6C5F3E0519EB6B1300E3898C /* CustomCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomCollectionViewCell.h; sourceTree = "<group>"; };
+		6C5F3E0619EB6B1300E3898C /* CustomCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomCollectionViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +92,12 @@
 			children = (
 				6C5F3DDD19EB3D2800E3898C /* AppDelegate.h */,
 				6C5F3DDE19EB3D2800E3898C /* AppDelegate.m */,
+				6C5F3DFF19EB3F0C00E3898C /* TopViewController.h */,
+				6C5F3E0019EB3F0C00E3898C /* TopViewController.m */,
+				6C5F3E0219EB4F5600E3898C /* HUDViewController.h */,
+				6C5F3E0319EB4F5600E3898C /* HUDViewController.m */,
+				6C5F3E0519EB6B1300E3898C /* CustomCollectionViewCell.h */,
+				6C5F3E0619EB6B1300E3898C /* CustomCollectionViewCell.m */,
 				6C5F3DE019EB3D2800E3898C /* ViewController.h */,
 				6C5F3DE119EB3D2800E3898C /* ViewController.m */,
 				6C5F3DE319EB3D2800E3898C /* Main.storyboard */,
@@ -219,7 +234,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6C5F3E0419EB4F5600E3898C /* HUDViewController.m in Sources */,
+				6C5F3E0119EB3F0C00E3898C /* TopViewController.m in Sources */,
 				6C5F3DE219EB3D2800E3898C /* ViewController.m in Sources */,
+				6C5F3E0719EB6B1300E3898C /* CustomCollectionViewCell.m in Sources */,
 				6C5F3DDF19EB3D2800E3898C /* AppDelegate.m in Sources */,
 				6C5F3DDC19EB3D2800E3898C /* main.m in Sources */,
 			);
